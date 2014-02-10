@@ -1,0 +1,98 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="design.master.cs" Inherits="MasterPage_design" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            height: 132px;
+            font-size: xx-large;
+            text-align: center;
+        }
+        .style4
+        {
+            height: 67px;
+            text-align: center;
+            font-size: x-large;
+        }
+        .style5
+        {
+            text-align: center;
+            height: 41px;
+            font-size: x-large;
+        }
+        .style7
+        {
+            height: 395px;
+            width: 250px;
+            text-align: left;
+            font-size: large;
+        }
+        .style8
+        {
+            height: 63px;
+            font-size: large;
+            text-align: center;
+        }
+        .style9
+        {
+            height: 395px;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+       
+
+            <table class="style1" width="990">
+                <tr>
+                    <td class="style3" colspan="2" style="background-color: #3399FF">
+                        <strong><em>//Site Banner</em></strong></td>
+                </tr>
+                <tr>
+                    <td class="style4" colspan="2" style="background-color: #99CCFF">
+                        <asp:ContentPlaceHolder ID="HeaderContents" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style5" colspan="2" style="background-color: #CCCCFF">
+                        <strong><em>&nbsp;<a href="link1.aspx">Link1</a>&nbsp;&nbsp;
+                        <a href="link2.aspx">Link2</a>&nbsp;&nbsp;
+                        <a href="link3.aspx">Link 3</a></em></strong></td>
+                </tr>
+                <tr>
+                    <td class="style7">
+                        <strong><em>Left Contents</em></strong></td>
+                    <td class="style9">
+                        <strong><em>
+                        <asp:ContentPlaceHolder ID="pageContents" runat="server">
+                        </asp:ContentPlaceHolder>
+                        </em></strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style8" colspan="2" style="background-color: #CC99FF">
+                        <strong><em>//Footer</em></strong></td>
+                </tr>
+            </table>
+       
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

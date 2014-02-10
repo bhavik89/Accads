@@ -1,0 +1,93 @@
+﻿.flip-container
+{
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+.flip-container:hover .flipper, .flip-container.hover .flipper
+{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back
+{
+    min-width: 80px;
+    height: 23px;
+    text-align: center;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.flipper
+{
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.front, .back
+{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /*position:relative;*/
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.flip
+{
+position:absolute;
+}
+
+
+.front
+{
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Opera */
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #000000));
+     /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #000000 100%);
+    z-index: 2;
+    font-weight: bold;
+    color: Red;
+}
+
+.back
+{
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%); 
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%); 
+    /* Opera */
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%);
+     /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #000000), color-stop(1, #FFFFFF));
+     /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%);
+     /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(ellipse farthest-corner at center, #000000 0%, #FFFFFF 100%);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    color: White;
+}

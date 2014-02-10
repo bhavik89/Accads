@@ -1,0 +1,19 @@
+../../story/whatisnext.htm?../Project/Documentation/story.txt  What is Next?
+
+1synopsis.htm							Project Synopsis
+2homepage.htm							Project Homepage
+3GooglePlacesAPI.htm					Google API Overview
+4textsearch.htm							The Textsearch feature
+5nearbysearch.htm						Nearby Search feature
+6autocomplete.htm						Autocomplete feature
+7getDirection.htm						Get Directions Utility
+8reviewsAndPhotos.htm					User Reviews and photos for place
+9siteUserComments.htm					Site user reviews feature
+10moreInfo.htm							MoreInfo Page
+11UserLogin.htm							User Login
+12database.htm							Site Databases
+13LimitiationsAndChallenges.htm			Project Limitations & Future work
+14references.htm						References
+story.txt								Documentation Story
+
+

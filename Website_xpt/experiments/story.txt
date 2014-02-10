@@ -1,0 +1,22 @@
+../story/whatisnext.htm?../experiments/story.txt  What is Next?
+default.aspx							CSS Button Animation
+jqQueryDropDown.aspx					jQuery Dropdown menu 
+form.aspx								Form validation with jQuery Plugin 
+jQuery_UI.aspx							UIs in jQuery
+AspForm.aspx							Simple Calculator in ASP.NET, C# and jQuery
+SQLexpt.aspx							SQL Queries
+aspformvalid.aspx						Login Form with SQL and LINQ
+comment.aspx							Comment Box for WebSite using ASP.NET, C# and AJAX
+/GoogleMaps/StoreLocator.aspx			Google Maps API with Store Locator
+SessionSignIn.aspx						Cookies and Sessions for Web Application
+JSONexpt.aspx							Generating Dynamic Queries for Places in Google Maps
+GoogleAutoFill.aspx						Using AutoComplete service of Google maps API
+Combining.aspx							Combining the API services to work together
+GetDirections.aspx						Maps API with Get Direction Service
+photoSlider.aspx						Photo Slider in jQuery
+ReviewsPhotos.aspx						Obtaining Place's reviews and Photos
+tabbedContent.aspx						Tabbed page layout
+aspLogin.aspx							ASP.NET Login with login rights
+page1.aspx								Passing data in query String with Javascript
+story.txt								Experiments Story
+

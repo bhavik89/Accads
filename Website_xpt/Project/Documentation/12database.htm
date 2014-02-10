@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Database</title>
+    <style type="text/css">
+         body
+        {
+         width:80%;
+         margin: auto;
+         -moz-box-shadow: 0 0 5px 5px #888;
+         -webkit-box-shadow: 0 0 5px 5px#888;
+          box-shadow: 0 0 5px 5px #888;   
+          padding-left: 3%; 
+          padding-right: 3%;           
+          padding-bottom:;
+         }
+        
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+            padding-top:2%;
+        }
+        .style2
+        {
+            font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+<h3 class="style1"><em>Project Database</em></h3><hr />
+    <p class="style2">The project uses one database table for maintaining the entires of reviews posted 
+        by site user and another for maintaining the login in details of the site users. 
+    </p>
+    <p class="style2">The reviews database has the entires of Username, reviews posted by user and the 
+        time property of the reviews that are posted. The login database is created 
+        using ASP.net Login controls.</p>
+    <p class="style2"><em>How this is done:</em></p>
+    <p class="style2">The reviews database is a SQL databse using&nbsp; LINQ to SQL. Every time an 
+        authenticated user posts the reviews, it is inserted into the database as well 
+        as it is shown in the reviews box. Each the page is loaded, the database is 
+        iterated for every user&#39;s reviews and displayed in the reviews space.</p>
+    <p class="style2">Login control on the website is setup in such a way that it uses SQL database to 
+        store user credentials, roles, memberships and profile details of the user. 
+        Every time user enters the username and password and click submit button, the 
+        credentials are validated against the data stored in the database tables and if 
+        it matches, user is redirected to the page where user clicked the login button.</p>
+    <p>&nbsp;</p>
+</body>
+</html>

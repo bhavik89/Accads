@@ -1,0 +1,6 @@
+﻿../story/whatisnext.htm?../database/databaseStory.txt			What is Next?
+database.aspx?cs=bhavikCS&db=bhavik.projectComment				Comments for project
+database.aspx?cs=bhavikCS&db=bhavik.commentData					Comments for experiment
+database.aspx?cs=bhavikCS&db=bhavik.personData					Experiment : Database Connection & SQL Queries
+database.aspx?cs=bhavikCS&db=bhavik.loginDetails				Experiment: Login Form with SQL and LINQ
+databaseStory.txt												The Story File

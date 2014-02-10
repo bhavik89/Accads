@@ -1,0 +1,47 @@
+﻿@media screen {
+    body {
+        margin: 0;
+        padding: 0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .pad {
+        padding: 20px;
+    }
+
+    .enlarge {
+        font-size: 125%;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    body {
+        width: 75%;
+    }
+    
+     .pad {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media print {
+    nav span {
+        display: none;
+    }
+
+    nav span.selected {
+        display: inline;
+        color: black;
+    }
+
+    .buttons {
+        display: none;
+    }
+}

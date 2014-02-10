@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+         body
+        {
+         width:80%;
+         margin: auto;
+         -moz-box-shadow: 0 0 5px 5px #888;
+         -webkit-box-shadow: 0 0 5px 5px#888;
+          box-shadow: 0 0 5px 5px #888;   
+          padding-left: 3%; 
+          padding-right: 3%;           
+          padding-bottom:;
+         }
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+            padding-top:2%;
+        }
+        .style2
+        {
+            font-family: 14;
+            text-align: justify;
+            font-size: 14pt;
+        }
+        
+        img
+        {
+           width: 70%;
+           height:auto;
+           margin:auto;
+           }
+        
+    </style>
+</head>
+<body>
+<h3 class="style1"><em>Getting Directions to the place</em></h3><hr />
+    <p class="style2">The Get Directions utility allows user to get the driving 
+        directions to the place on map for the provided location. The user needs to 
+        input the address from where he/she wants to find the directions to given place 
+        on the map.</p>
+    <p class="style2">To get directions to a place on map, user needs to select place on 
+        map by clicking the corresponding marker on map which will pop-up an info. 
+        window giving the details of place. The user has to input the address in the 
+        text field on marker info-window from where he/she wants to travel to the given 
+        place and hit the Go! button on the info-window.</p>
+    <p class="style2">Directions are displayed as a polyline drawing the route on the 
+        map, as well as the description is printed on the directions panel on the left.</p>
+    <p class="style2"><em>How do we get the directions:</em></p>
+    <p class="style2">The Get Direction utility uses the direction service of the Google 
+        Maps API. This is an asynchronous service by the Goolge Maps API as it needs 
+        make a call to the external server. The Get Direction utility takes two 
+        locations viz. start and end. Upon requesting the direction, an array of 
+        possible routes is obtained and the best route is displayed.</p>
+    <img src="../_images/getdirections.PNG" />
+    <p class="style2">&nbsp;</p>
+    <p class="style2">&nbsp;</p>
+</body>
+</html>

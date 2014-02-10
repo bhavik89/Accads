@@ -1,0 +1,425 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ClROAAAACrfMj7Gqpq5JYAQYV1uuDWyyNlnUur2mxU7_NhWVo0m1Naws_khaS3nu_bYzFwljVFN4e0ePJpUubTqqgXx34E_6kk_DjNNHit_2C7Rqo2sSEH2vhP3PRZhAoGgPYLxHVQgaFKZjOZ6ZZTCjpzI6pBu1bEW4q-e2",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3437230,
+               "lng" : -71.0873780
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "09905d1e1ad9e1899736b7adfc01e2d21af08618",
+         "name" : "Whole Foods Market",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "price_level" : 3,
+         "rating" : 3.90,
+         "reference" : "CnRwAAAAi2jWWOg1zNhVPQ4g_E2XEgDssbfWMZtFMjRHRjo987jeyjjkEB0vJeu51_hzMDpRb8xQRS1JZzvGZQqARO1QsGePJX_Pp0BBU3V_ddRFNKUpPV76EEQVe_WhZt-FBalvUbUyI9uA_Lkq_0yOwU8pdBIQ1K29KSljlfrrySlPgz9L_xoUu5eRHY_yrMUw6cdS6nHNIOZOCUs",
+         "types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+         "vicinity" : "15 Westland Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3416260,
+               "lng" : -71.08352499999999
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8f5eef48aa63dd05c8a832d584e2d110503217b9",
+         "name" : "SUBWAY",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "price_level" : 1,
+         "rating" : 3.80,
+         "reference" : "CnRkAAAA0E57HxGeg2o7-Pk-vfsEUUpuZgG6I2WHTjWxS2UBBIKEc9e4Eob1RTQ9qXG3CTFol-ukn9CLYukHw9mUkSVMVpxV7Ak_XPPfhzvdQ_pjMy8ZhDDMLU_UsAHhhNSahagAgG6RlsHjYWAWS-tCyy2xaRIQsuZu5Gw1tlwTDGgWkJGEPhoULmIlrRxccQQIi3PUnSAKbM9iwAg",
+         "types" : [ "store", "meal_takeaway", "restaurant", "food", "establishment" ],
+         "vicinity" : "393 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3411150,
+               "lng" : -71.0873910
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "6318fd56ce1c038fcd9ab342d029003cdc3bee63",
+         "name" : "Cappy's II Pizza & Sub",
+         "rating" : 3.90,
+         "reference" : "CoQBcwAAALfNv3n7M3M9ZmtireCIulTz4arggGu9bEMMMDqvpJbDHV_lLmDmZs0ZiBwT9sYd0SnIfYugx7mhWaZUfjRTwhHkyeNQO0UAfZKk3D95x2-e_Pl4eD1goD-7anjE2lMLfTQGrWBSDR-iVVp7Uq8I6kP55hAok_Q9c6ZgkI4uuCBzEhBaf6JGskcBihepDoyawzLTGhQVPPMZ9JO5_GQRqTtdIUL9EOZFZg",
+         "types" : [ "store", "restaurant", "food", "establishment" ],
+         "vicinity" : "309 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3373120,
+               "lng" : -71.09147900000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "97225e19d7ab2902278856190faf4c8ca10913de",
+         "name" : "Wollaston's West Village",
+         "rating" : 4.0,
+         "reference" : "CoQBdgAAABb-aHLYQV-wwcU4QjTHraXEUgfdWgBOI_etzi89lMiidLvQ56oIxBH6Njw_NMgWUXM1vD3zoznBvRRTluejVsfQSV79cltKEHdoomLdV2T8GMOIEjakh3BBZeAt0Z1MUPlNrEbmDXldwt5ijAFacon5pu7E4llvCy8toOzEgoDkEhCi-A4cdBP1qEdB4YkXCRRSGhSaQThk6oRWKPdhCW_OEkE81iUJ-w",
+         "types" : [ "grocery_or_supermarket", "food", "store", "establishment" ],
+         "vicinity" : "40A Leon Street, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3397640,
+               "lng" : -71.08820
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "55003ccd25d90a6413161dc6f0cb37da44b00f65",
+         "name" : "Barnes & Noble Bookstore",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "reference" : "CoQBdgAAAMZWbNZGwORdiOg0eWcGmfcy51kf1p7vczmF2BoDYUzC98vo-sVoJIB5oze98Y5WYE5ghDJYHPM4BDskjgghTRdX7WS8JKxyegDDSDBItgPA08SSoDQFs71ctwGwmR1SzuwosdbdBhQObakoTlX5NJlFJ9EpxCiwGz6dywo-WP7qEhAtmYb2aeqh95y7m8WJ4G-IGhSniABHsVwf2HcJxhSpTXsKoA0-Jw",
+         "types" : [ "book_store", "store", "establishment" ],
+         "vicinity" : "360 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3443080,
+               "lng" : -71.08651399999999
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1de396841fe2f4fe988a7d1ddfe1266f7bd30a1d",
+         "name" : "CVS/pharmacy",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "rating" : 4.0,
+         "reference" : "CnRqAAAAu4NeSeR4Za4DgrjIuv7FH2XuoZfTFSOnkYnGrvndyMV_V-4ndqz3rGcbvThc5pSMVUcCEf9Bu_dQuyFG05r-xlAwbrkh4H9A1oEjvYJYCt3aSopQHwQNRmK5jAEJlpSEeP0OxHaRGjYc4SxzOCdNmRIQ__ZaO_Bc019a0HYAxX71sBoU_XEZR135C1tjngqtu_G_gw9Arpc",
+         "types" : [ "pharmacy", "store", "health", "establishment" ],
+         "vicinity" : "231 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3425180,
+               "lng" : -71.08435799999999
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3014e4a968d6b4f63c09e5de7343651dffc00b96",
+         "name" : "Red Mango",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 468,
+               "html_attributions" : [],
+               "photo_reference" : "CnRnAAAAE5N423GKk121mP4pOyMEGKpxKjv99NxbGaNedV47CFf0FpYZQF6WmxrDGWEx-2LZrk6KCu5uA_tGESLM0vObo91ipWfFvExvjss_mcFXEj2DponAtwcJh8f8_5uRT8cSrO2wfJ5_AagVBNz9KXzAtxIQqQsCqaFwVSECDlag3nBxLhoU8ocaL7698-roUsp2K3oFPjaj4n8",
+               "width" : 261
+            }
+         ],
+         "price_level" : 1,
+         "rating" : 3.90,
+         "reference" : "CnRmAAAAEp_9ajYGPpKA4BaDzb0XiDDa7BPiCZLLiJFotqzmvo1Cc8SBftzNgX5khlxjVvNdmOBkGUJaOIkmcqbZguWDn2_mtBOE3AWNqFuM5hux2m1LfhMXoyxVNBCyR3ouOPjNriLBKofGLKSD-oCai7-NbRIQwXYoYvjz0IfRwFEnzpYXdRoUDvFuaPgVotUic9XBo25JydAJ6Bg",
+         "types" : [ "store", "food", "establishment" ],
+         "vicinity" : "334 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3437780,
+               "lng" : -71.08958199999999
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "22d22da03f84d6d5980ce18f248a331dbad0e5b1",
+         "name" : "Cappy's Pizza & Subs",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "price_level" : 2,
+         "rating" : 3.90,
+         "reference" : "CoQBcQAAAJWC44CWUaFf4w92fTU9QGj6oiUNDMwVXW4Xxk1BNG02_OC1bKqG5OrQQklK7S6acK-STKRh8VAK6wgNoJDVTyXT2DXeDo3K9n_coZed2Ap5t1f8j39WgXQxDfGHDokFqplo689WL-QnEda9cR4r8r2otzcdIEbVSKCJCV4K-W5PEhCTms8UMK2w952FVsF5vRRWGhTlWSLIv5dt8x1sl6Ywf5KS1OaUvg",
+         "types" : [ "store", "meal_takeaway", "restaurant", "food", "establishment" ],
+         "vicinity" : "82 Westland Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.341350,
+               "lng" : -71.0868150
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "78ac1590092e11a199977a7b355183373093f370",
+         "name" : "Music Espresso Inc",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 396,
+               "html_attributions" : [],
+               "photo_reference" : "CoQBdwAAAMOaQGwg0xiEI9_U4bOr7iwh3aFh_HzxBmuArxvdDsmsfQvSEvScQ7N_6wbxN2vYOPqMz5nIOND9Ao5XVDZILTKoijzuwZg9pyC-QTnfY0vkUwxM1_CLudho0MiyWEzdbimbKY-vahYcuKc8M5MRDrJ5j7E_Hhyk96NtwyCYi9G9EhABajCPD3XESRmUdfwPb3FaGhTry7vngkEHm03GQNNMymrpc1nKbA",
+               "width" : 520
+            }
+         ],
+         "reference" : "CnRvAAAAD9Xs_Vcd-Cp-bCPPUSATPu_cxqW7tAOMeqcBKDzoeN_C6Ea3cu7PpsZiDiJ7QR0P0aH5QbvNCaQE75K4-SKxzRcZJZzVry55ixupi8CGamC-VtUB3JGJLIoVERsg0epdMDCJrCwISljGZwm5pAwT2BIQBhliXXapLEGDjzmowICbDxoUqlUWZ2tLq1vvTqou8ShrSGJbm4w",
+         "types" : [ "store", "establishment" ],
+         "vicinity" : "295 Huntington Ave # 212, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3447480,
+               "lng" : -71.0867580
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/repair-71.png",
+         "id" : "f7ba73fdd01c4695283a3b320387514c4604dc8f",
+         "name" : "Economy True Value",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [],
+               "photo_reference" : "CoQBfAAAAMNAZlq58Uk0GK6NWof1B2yvRWJWb1gb-zG-glFveqKHWIVO0BKtEuigXp-7gMDPv5cLwqUKl2eMkJOPRt2WtRdhv_7mD7WgIPVRNzrce3aphhOvrNWQ4QFSKE1ZLVFwvuxRH331-RoYI-nD0bSC059fkXyNacFyFvo4kjTEs32iEhDvWn26IjOL032sOEUiF2piGhSMUGomH7piMzpMLAeX41ofgbTF6w",
+               "width" : 1024
+            }
+         ],
+         "rating" : 4.0,
+         "reference" : "CnRvAAAABVtTmdJUnjyIta8cSZ5-s9EqqE-mZ0UixQrwk1dhqDB01WM6wB6S-aTohiiAp3KL-QJ0RKmSq8Qg2R1bgwQiiJZdhOGsimpPYvDi3LVqnR-L6TCdZ3b6KKebyCTNbghrIueKhUYCMIhin5nTAQ8R4BIQB2zbJ9IuIsXAJaIHT97U6RoUiwI_-VKAjGivIRNPJALS8ufzAPA",
+         "types" : [ "hardware_store", "store", "establishment" ],
+         "vicinity" : "219 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3423270,
+               "lng" : -71.0845540
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ddd7a046e781f846a565f157ab7478bcea0d38d5",
+         "name" : "Utrecht Art Supplies",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 76,
+               "html_attributions" : [],
+               "photo_reference" : "CoQBdQAAABrZm9PywQMYze-SUOuegYL_SJMGim_p_Iy--4ZOBT-uFg4Ulu3HoS0vqnfHriamUbbPtf-62cfXQRQwWLVcp_Rzu9o--jl9JDjeR8ditM2y_zvQxGueuwtSRiAacCWZzWAtmumh8MVkKKJnUBHMBHJ6PVofaxXKg8Um4dpM11ThEhAqig2TQLblGAk50_BIoHTVGhSq68gJF_LVfJJa_Uc1WwLpYKx6xA",
+               "width" : 120
+            }
+         ],
+         "reference" : "CoQBcQAAAN4d7F66N12vhanmKamr0xgdsdfJ2AsjmKlSZweG2-97Y9F9B1mRV1-FbWJBWbqI4Bx3XfqPYsCSICiLcyrkftMMwVQjykZgs2mzl6m-FTEGPZ0vgy0g0fVb_fNZiLPOZeOt2mkJmUvIALYrc5MneLgHMk0hJTaZ1fDbZlSMvEy-EhBnjOxewZ2W_G5OeAwWiCkjGhQMTpZOtGE4GRDxhHDCXWtacC-2ow",
+         "types" : [ "store", "establishment" ],
+         "vicinity" : "333 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3363740,
+               "lng" : -71.09022899999999
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "04bdd219272d0e5b5b8ff78bc0b3e9a21395a38c",
+         "name" : "Subway",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "price_level" : 1,
+         "reference" : "CnRjAAAAXDVpyA-9Lw1oYKZLLK8Zc34xwOzLqzzOieJ17Xh1CqkFcWiDQBUDphzIUtN2e2NoF-96guhxP1IJ6GYttJ9rpIAjDxuyRt5YXcn2svl2bFpKCcAa_xpY6uKSIu9hpY7ReedhXT19zMCRRK1khgH8axIQkSUR7Bas6srNpIHILW2nLxoUlyxWI0MIk4sJ8XxkdEXnYdm1CIE",
+         "types" : [ "store", "meal_takeaway", "restaurant", "food", "establishment" ],
+         "vicinity" : "981 Tremont Street, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3429920,
+               "lng" : -71.08438200000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7ff13c322920def55d6b5d3666acce7f71f625ab",
+         "name" : "Rayburn Music",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "reference" : "CnRqAAAAoDjMEbrI0Ax3x5-CwUuwkHSGJfYWtKXDuJ-xvGPbTA0dLpLOfuxQ7U477VnOvCXNe74rPHLYlxtJ_4BK9T9VwXMIHaZk8_BLzrh8GRy_HT-ML8yR2tTOIKS2nJ2lcOJyMuii68Nw9kORmaBnMLfB6BIQ89UGfNus9vnLAldUfDjwiRoU3GNBZan4SsMZxoRauZAppxUYPRI",
+         "types" : [ "store", "establishment" ],
+         "vicinity" : "238 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.344520,
+               "lng" : -71.0865280
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/electronics-71.png",
+         "id" : "721c8977441ec5144f1951da0e1d0df312d74204",
+         "name" : "RadioShack",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 257,
+               "html_attributions" : [],
+               "photo_reference" : "CmRYAAAAsCMKCAXeoNyAIIhpB78xSwQ-Ytm8lOGcZzPalTH6Dm0Wapm66piBytlux6EztLy2gtfIVLM07Zj2TsJCsuyl-oIT1DavZZfqGCVL7pwg3-b25nTflPPlnoRTVghmHgYXEhBV2emKyO3ERk_b3H5pdmoQGhSJwg0lvpOtFDIfeFfUymNgH8wrBw",
+               "width" : 365
+            }
+         ],
+         "price_level" : 2,
+         "reference" : "CnRnAAAA5h7-9ZxM8Tupg1QtEs7-AUziTDKtUYrJwLO0r_iXnE0yKYkyS6xD5BzWJql8HXmVv5va5A4tpSl89Ob2N9ozELbXpMLFhdQjl-DDbP079Hc43mCKii9-32oiSmF7_efhuSoCsYMyp5nTRPOlVMiMMBIQLR0Noa1QSNY-skdXcQr5kBoUrh1ucfFZ521U5_Y-LLR6SzAxijc",
+         "types" : [ "electronics_store", "store", "establishment" ],
+         "vicinity" : "197 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3416920,
+               "lng" : -71.0870530
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "fbec68466eaf47447ef751521be9bf831a0dd1c8",
+         "name" : "Pavement Coffeehouse",
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [],
+               "photo_reference" : "CoQBdAAAACGVskuMtvGtl0Kel9VkcnK-7-0hpUl4X0FArSd4HRGy1Xcdnc-2SJfKmmWXIHYQnLJ4AqTvWGtWSzJTQGqlnc0zwRXksA0iefgr0E1dem7iPt9fChgUU78JHYArJfJm8EMHGrcDVEjjTpta8uCf7Dx5BXrlxCAkNiyd4NnWCKjYEhAWl-QRKqpsHNSy4cSeCe8-GhRcmPmvikcxcZgSU6aFbBmzxsrg0g",
+               "width" : 960
+            }
+         ],
+         "rating" : 4.10,
+         "reference" : "CoQBcQAAAPqKxccv3LTUO2pZzXUNB6nFUdP8t8nMtD7TzgutFtGiPgTCBLWYPSEZes7vezr0FJS5e6eBywAoCAXnYCZu3uK1BztlMataN9-dcdR12xk01RMaHBq81ofcJL8sAZpGiQO5ylK8P4y2UeNnkPSwXllhVWR3lDr7CSpwqL3neGp2EhB5JhrKN7aOE_Heeqi5ecCQGhSNacRi-HPn1dXodA42FtwdwAaNiw",
+         "types" : [
+            "store",
+            "meal_takeaway",
+            "cafe",
+            "restaurant",
+            "food",
+            "establishment"
+         ],
+         "vicinity" : "44 Gainsborough Street, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3411980,
+               "lng" : -71.0872050
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/wine-71.png",
+         "id" : "2ea58e08bb0f3fcbdb3ab5112c8c7b990a226e5e",
+         "name" : "Huntington Wine & Spirits",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1936,
+               "html_attributions" : [],
+               "photo_reference" : "CpQBgQAAAOPOImQ9w7rf6l0PlvbTnYCTojK3RIheKKqAeR9dYVTxV1LrHmVuD93z47DpatTO6R4iHuMTNnyedIgbiI6s1BsVYZudao4uW4il2cCYxW9lLibvJaBuBACUi4v1ekevhXxgPgNqvseUgKS40qWdIok9ODeC_hAvhtpXVE5z3rAq3oj5yETFKSLE6r36I0kgzxIQ2kpkCI5BiFBOIWF9a6ExPBoUJHw2oE_i0fVbZ5oc2fahkkRt4D4",
+               "width" : 2592
+            }
+         ],
+         "reference" : "CoQBdgAAANiei6sY_A3JJ5XFGpZtMvQlc5tDpWGtm1RgdHlxK11FpJD4VPpg-1qpEVclcgq2oPzXP5D9o0R3uDCel7SP4JTMHou8TSUag-wPMTlvFJ8gL6T9hsK2z1EPDjWoeaoUe-QHaUHMq5Pfil0_ZWgGcsWXy9y3vIsTIlE2RLeilxCyEhCBQD8ujZmzn3Bczq6TFp08GhTHmwUBTRo523VBU-UEQ844GjeQqw",
+         "types" : [ "liquor_store", "food", "store", "establishment" ],
+         "vicinity" : "301 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3410170,
+               "lng" : -71.08763500000001
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "373a9c5c9f60aa4e5050f78b4a46622f8a5d17ae",
+         "name" : "Boston Shawarma",
+         "price_level" : 1,
+         "rating" : 3.90,
+         "reference" : "CnRsAAAAIPXvhbVDydfPtsK6MX-GIyewR8OOHEND4J84TO_4n1llGq1t0gegFfM1SQeikvKz7tqy3MsCHKwTq-ZRzfoC_H8wyzHCnbLX9XJxu4j-4zk5mnuvBRG2bHc8h_GqjwjevC_8IykEZJHuKYGCMMcTnRIQNjdmu2ZymOdcGQynuiJgcxoUJ5inXqbO_V5YC2dyQ-uOLHmz_0s",
+         "types" : [ "store", "meal_takeaway", "restaurant", "food", "establishment" ],
+         "vicinity" : "315 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3440340,
+               "lng" : -71.0864010
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "67b14b908de66ae797d2f859cae3282d5c0137dd",
+         "name" : "Boston Rose Florist",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "rating" : 4.20,
+         "reference" : "CoQBcQAAAHtEkGtQZT5L5Qrm7qYVtpMuBW_BT0a0SrLldgaciB_QlxspZVujgvUZIf8nBWIQj0y9cqkDuSBgeoCUD3wSIPgGy6pEZUNf0VxQeQ3EaKYPEKO1shlNbTXWUi-xj35pCck43vIiGw74p57ROV8TqDlXQPcZslt8nSRgxquiheyTEhB2juh7l0JB9Ad2XBCIbky1GhSgRN2862Wx25u_81Giz4IDQ1HKkA",
+         "types" : [ "florist", "store", "establishment" ],
+         "vicinity" : "225 Massachusetts Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3430720,
+               "lng" : -71.0843910
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "c28294d78f9284526fa3eb4c980f06b23f156108",
+         "name" : "UndergroundHipHop.com",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 399,
+               "html_attributions" : [],
+               "photo_reference" : "CnRwAAAAYVb-iQ0QCo3JV4J9QdZNAMs_ZW6ojfb7Y8UoyzJsEtDxuMJ8JC4GqRfYA-uERcHNVUc9PxpJnmD0W-4fcMg_lk4BLPGD7C3W6pstlxwSDwIhla4rymM_arl0Dk0HMS1nB1OV4cWTfXmqH2mZDka2fxIQ5Gf9srMmsdgVMuNxz7tG1hoU_67RGRpa2cyNj9m-roaLiA0fQqI",
+               "width" : 600
+            }
+         ],
+         "reference" : "CoQBcwAAACfq-Tpho82WxvoqL8gCmqK-QGJGwlfDvrK1_203xBlBisAWyMI8L3_apzTc33xhCty1bGXPsR2zeImHJLvU9-cuWj4fO1cbQxRJQn8OQrcd1llP_G6pLuCwbmQH_rkK4lSct31fSU3dTrPeRdo-MTVEAljN95r1gURhL6zDAjtcEhDPYKeu5waYBnCuok36SJ9HGhSumXpTDdjl8A_PW501EHjVvU7umw",
+         "types" : [ "clothing_store", "book_store", "store", "establishment" ],
+         "vicinity" : "234 Huntington Avenue, Boston"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 42.3418870,
+               "lng" : -71.0872820
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f0074a851a25b455090f361d46aad39eb5d44f85",
+         "name" : "Kang's Corner",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "rating" : 4.20,
+         "reference" : "CnRrAAAAiv3ydOHo6oqQ6ddw3Sp9mkLNYbiD7VVszXRmbyYZnlyaaCaA9FRwLSVK7llX_NjXqwQPoAN8mZ_khSMDQLOXZqaTIUJ1Ik1LObZrJqmRREFDATZ35nbnv-ArNSKkY8A8PnZdKeZS3WI0jz86yPS2OxIQHuPuME_H4PhqqElXZXLBYRoUU-NU7vW98y7sqnQXqjSmE7Iy-CA",
+         "types" : [ "store", "establishment" ],
+         "vicinity" : "56 Gainsborough Street, Boston"
+      }
+   ],
+   "status" : "OK"
+}

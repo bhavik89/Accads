@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NearBySearch</title>
+    <style type="text/css">
+         body
+        {
+         width:80%;
+         margin: auto;
+         -moz-box-shadow: 0 0 5px 5px #888;
+         -webkit-box-shadow: 0 0 5px 5px#888;
+          box-shadow: 0 0 5px 5px #888;   
+          padding-left: 3%; 
+          padding-right: 3%;           
+          padding-bottom:;
+         }
+         
+        
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+            padding-top:2%;
+        }
+        .style2
+        {
+            text-align: justify;
+            font-size: 14pt;
+        }
+        
+        img
+        {
+           width: 70%;
+           height:auto;
+           margin:auto;
+           }
+        
+        .style3
+        {
+            width: 591px;
+            height: 515px;
+        }
+        
+    </style>
+</head>
+<body>
+<h3 class="style1"><em>Nearby Search feature</em></h3><hr />
+    <p class="style2">The project allows the user to search for the places nearby within a radius. The 
+        user&#39;s current location is obtained by the browser and the places are search 
+        nearby the current location of the user. </p>
+    <p class="style2">If the user knows the name of the plaec he/she wants to visit for example 
+        Starbucks, Chipotle etc, he can use the nearby search utility to find that place 
+        nearby. The nearby search sorts the results in ascending order by their distance 
+        from the user&#39;s location. The search result is limited to the radius of 50km.</p>
+    <p class="style2">To search for the nearby places, the user must Check the checkbox saying &quot;Search 
+        nearby&quot; and type the name of the place in the search box or can select one of 
+        the option from top dropdown menu the which various types of places to search 
+        for.</p>
+    <p class="style2">
+        <img alt="" class="style3" src="../_images/menusearch.PNG" /></p>
+    <p class="style2"><em>How do we get the results:</em></p>
+    <p class="style2">The request given by user is sent to the Google&#39;s places library to search for 
+        the mathcing places with given parameters and the results are obtained in the 
+        JSON format. The useful data is filtered and displayed on the map. Initially 
+        first 20 results are displayed on the map as well as on the side panel. </p>
+    <p class="style2">To list 
+        obtain more places, user needs to click the button saying &quot;More similar places&quot; at 
+        the bottom of the list. On clicking, the next list of 20 places is displayed on 
+        the side panel replacing the initial results. The user can view upto 60 places.</p>
+    <p class="style2">&nbsp;</p>
+        <p>
+            <img src="../_images/nearbysearch.PNG" />
+        </p>
+        <p>
+            <img src="../_images/nearbyresult.PNG" />
+        </p>
+    <p class="style2">Technologies used :</p>
+    <ul>
+        <li class="style2">CSS3</li>
+        <li class="style2">javascript for taking user&#39;s input and requesting the data</li>
+        <li class="style2">JSON parsing for extracting the useful results</li>
+    </ul>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

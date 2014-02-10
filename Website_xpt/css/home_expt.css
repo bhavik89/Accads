@@ -1,0 +1,317 @@
+﻿* {
+    padding:0px;
+    margin:0px; 
+    word-wrap:break-word;
+}   
+
+
+body {
+       background-color:#f0f0f0;
+    }
+
+
+.container {
+    width:80%;
+    margin:1% auto 1% auto;
+}   
+
+
+ .header
+        { 
+            height:170px;
+            text-align: left;
+            font-family: Consolas;
+            color: #000095;
+            text-shadow: #EEEE00 0 0 10px;
+            font-family: Segoe Script;
+            position:relative;
+            border-radius: 90px;     
+                    
+        }
+  
+  .wall_image
+  { 
+     background-image:url('Images/wall.png');
+  }      
+
+.bold {
+    font-weight:bold;
+}
+
+}
+.clear {
+    clear:both;
+}
+
+.center {
+    text-align:center;
+    padding:1%;
+}
+
+/*...............................................FLIPPING BUTTONS CSS..................................................................*/
+
+.flip-container
+{
+ text-align: center;
+ border: 1px solid #ccc;   
+  
+}
+
+
+.flip-container:hover .flipper, .flip-container.hover .flipper
+{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back
+{
+    min-width: 120px;  
+    height: 28px;
+    text-align: center;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px; 
+}
+
+.flipper
+{
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.front, .back
+{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+.flip
+{
+position:absolute;
+}
+
+
+.front
+{
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Opera */
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #000000));
+     /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #000000 100%);
+     /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(ellipse farthest-corner at center, #FFFFFF 0%, #000000 100%);
+   /* z-index: 2;*/
+    font-weight: bold; 
+    color: Red;
+}
+
+.back
+{
+    /* IE10 Consumer Preview */
+    background-image: -ms-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%); 
+    /* Mozilla Firefox */
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%); 
+    /* Opera */
+    background-image: -o-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%);
+     /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #000000), color-stop(1, #FFFFFF));
+     /* Webkit (Chrome 11+) */
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #000000 0%, #FFFFFF 100%);
+     /* W3C Markup, IE10 Release Preview */
+    background-image: radial-gradient(ellipse farthest-corner at center, #000000 0%, #FFFFFF 100%);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    color: White;
+}
+
+ul
+{
+display: inline-block; 
+text-align:center;
+}
+
+li
+{
+display: inline-block; 
+text-align: center;
+
+}
+
+
+.profile
+{
+  width:100 %;
+  margin-top:0%;
+  border-radius:10px;
+  padding-left:10px;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  min-height: 30%;
+  max-height: 100%;
+  height:auto;
+ 
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #DBDBDB 0%, #757575 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #DBDBDB 0%, #757575 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #DBDBDB 0%, #757575 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #757575));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #DBDBDB 0%, #757575 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #DBDBDB 0%, #757575 100%); 
+/*    -moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: 0 0 5px 5px #888; */
+        
+    }
+
+.profile_left {
+    float:left;
+    width:18%;
+    font-size:100%;
+    border-radius:20px;
+    padding-left:0px;
+    padding-top:0.5%; 
+
+}
+
+
+.profile_center 
+{
+    margin-left:0;
+   /* margin-top:0.5%; */
+    width:60%;
+    font-size:100%;
+   /* height:80%; */
+    text-align:justify;
+    float:left;
+    
+    border-left-style:solid;
+    border-left-color: #646D7E;
+    border-left-width:2px;
+    
+    border-right-style:solid;
+    border-right-color: #646D7E;
+    border-right-width:2px;
+    border-left-radius:10px;
+    
+    
+/*    background-color: #c0c0c0; */
+   padding-left: 10px; 
+    padding-right:10px;
+    padding-top:0.5%;
+    padding-bottom:2%;
+   /* height: 250px; */
+     	
+}
+
+.profile_rightmost
+{
+   width:17.5%;
+   font-size :100%;
+   text-align:justify;
+   float:left;
+   padding-left:10px;
+   padding-top:0.5%;
+   padding-bottom:2%;
+  
+ }
+
+.linkColor
+{
+    color:#EB0A0A;
+    }
+  
+ .sideLinkmargin
+ {
+     margin-top:5px;
+     }   
+
+.body_font
+{
+font-family: "Comic Sans MS";
+font-size: 100%;
+color: #000000;
+}
+        
+        
+  .profile_left_fonts{
+   text-align: left;
+   text-decoration:none; 
+   letter-spacing:2px; 
+   font-size:95%;
+   font-family: "Comic Sans MS";
+   color: #000;
+   display:block;
+    
+  }      
+        
+/*.................BOTTOM MENU CSS...........*/
+
+#bottom-menu
+{
+  margin-top:10px; 
+  width: 100%;
+  background-color: #A8A8A8;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align:center;
+  height:auto;
+  border-radius:10px;
+  min-height: 40px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+#navmenu {
+  margin: 5px auto auto 0;
+  width:auto;
+}
+ 
+	#navmenu li {
+	  display: inline;
+	  padding: 5px 5px;
+	  text-align:center;
+	}
+	
+	#footer_img
+	{
+	   margin-bottom:-5px;
+	    }
+	
+	#mailLink
+	{
+	    color:black;
+	    text-decoration:underline;
+	    }
+	

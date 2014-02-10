@@ -1,0 +1,9 @@
+﻿Original file name: modernizr.custom.28986.js
+Modernizer version: 2.0.6
+
+All features were checked during custom build.
+
+File renamed to: modernizr.min.js to be consistent
+with existing code.
+
+Date: July 6, 2011.

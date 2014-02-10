@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Site user Comments</title>
+    <style type="text/css">
+        body
+        {
+         width:80%;
+         margin: auto;
+         -moz-box-shadow: 0 0 5px 5px #888;
+         -webkit-box-shadow: 0 0 5px 5px#888;
+          box-shadow: 0 0 5px 5px #888;   
+          padding-left: 3%; 
+          padding-right: 3%;           
+          padding-bottom:;
+         }
+        
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+            padding-top:2%;
+        }
+        .style2
+        {
+            font-size: 14pt;
+        }
+        .style3
+        {
+            font-size: 14pt;
+            text-align: justify;
+        }
+        
+        img
+        {
+           width: 70%;
+           height:auto;
+           margin:auto;
+           }
+        
+    </style>
+</head>
+<body>
+<h3 class="style1"><em>Site user comments</em></h3><hr />
+<p class="style3">The site allows the Logged in users to post their reviews about the places they 
+    have been to. The active users can post there comments and views about the 
+    places they liked and want to share there experience. The site user reviews are 
+    open to all to read but only the authenticated users can post the reviews.</p>
+    <p class="style3">To post the reviews, a user must log into the site by clicking the Sign In button 
+        at the top menu bar. This will take the user to the login form where you need to 
+        input the credentials. Once the you are authenticated, you can post the reviews 
+        about the place. Note that a blank comment wont be posted.</p>
+    <p class="style3"><em>How this is Done:</em></p>
+    <p class="style3">There is a reviews database using LINQ to SQL. Every time an authenticated user 
+        posts the reviews, it is inserted into the database as well as it is shown in 
+        the reviews box. Each the page is loaded, the database is iterated for every 
+        user&#39;s reviews and displayed in the reviews space at the bottom-left of the 
+        page.</p>
+        <p>
+            <img src="../_images/sitecomments.PNG" />
+        </p>
+    <p class="style3">&nbsp;</p>
+    <p class="style2">&nbsp;</p>
+</body>
+</html>

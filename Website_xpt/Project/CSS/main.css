@@ -1,0 +1,365 @@
+/* CSS Document */
+
+/*copyright lynda.com 2012
+feel free to use these styles as you wish
+attribution would be nice, but not required
+*/
+
+/* roux academy color palette
+#FBAE2C     rgb(251, 174, 44)  ORANGE
+#B683BA      rgb(182, 131, 186)  LIGHT LAVENDER
+#A858A3    rgb(168, 88, 163)  DARK LAVENDER
+#0263AE    rgb(173, 169, 130)  DARK TAN
+#D8D5BC   rgb(2, 99, 174)  DARK BLUE
+#F9E482   rgb(249, 228, 130)  LIGHT YELLOW
+#BFBFBF rgb(191, 191, 191) LIGHT GRAY
+#414042    rgb(65, 64, 66)  DARK GRAY
+*/
+/*Font declarations*/
+@font-face {
+    font-family: 'Bitter';
+    src: url('../_fonts/Bitter-Regular-webfont.eot');
+    src: url('../_fonts/Bitter-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Bitter-Regular-webfont.woff') format('woff'),
+         url('../_fonts/Bitter-Regular-webfont.ttf') format('truetype'),
+         url('../_fonts/Bitter-Regular-webfont.svg#BitterRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../_fonts/Bitter-Italic-webfont.eot');
+    src: url('../_fonts/Bitter-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Bitter-Italic-webfont.woff') format('woff'),
+         url('../_fonts/Bitter-Italic-webfont.ttf') format('truetype'),
+         url('../_fonts/Bitter-Italic-webfont.svg#BitterItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Bitter';
+    src: url('../_fonts/Bitter-Bold-webfont.eot');
+    src: url('../_fonts/Bitter-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/Bitter-Bold-webfont.woff') format('woff'),
+         url('../_fonts/Bitter-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/Bitter-Bold-webfont.svg#BitterBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSans';
+    src: url('../_fonts/DroidSans-webfont.eot');
+    src: url('../_fonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DroidSans-webfont.woff') format('woff'),
+         url('../_fonts/DroidSans-webfont.ttf') format('truetype'),
+         url('../_fonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DroidSans';
+    src: url('../_fonts/DroidSans-Bold-webfont.eot');
+    src: url('../_fonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../_fonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('../_fonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('../_fonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, , canvas, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+html {
+	background: rgb(65, 64, 66);
+}
+body {
+	font: 100% DroidSans, Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font-weight:normal;
+	font-style:normal;
+}
+article {
+	clear: both;
+	margin-bottom: 3px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 10px;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+/* Global classes */
+
+/* For browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+.cr {
+	clear: right;
+}
+.cl {
+	clear: left;
+}
+.cb {
+	clear: both;
+}
+.nrm {
+	margin-right: 0;
+}
+.orange {
+	text-transform: uppercase;
+	color: rgb(251, 174, 44);
+	font-weight: bold;
+}
+.blue {
+	text-transform: uppercase;
+	color: rgb(2, 99, 174);
+	font-weight: bold;
+}
+.lavender {
+	text-transform: uppercase;
+	color: rgb(190, 88, 00);
+	font-weight: bold;
+}
+.more {
+	display: block;
+}
+/*layout styles*/ 
+body {
+	width:990px;
+	max-width:90%;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+article#mainContent {
+	float: left;
+	background: white;
+	width: 607px;
+	margin-top: 3px;
+	padding: 16px;
+}
+
+aside {
+	float: right;
+	width: 318px;
+}
+footer {
+	clear: both;
+}
+
+/*Header styles*/
+.pageHeader h1{
+	width: 160px;
+	height: 150px;
+	/*text-indent: -9000em;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: black url(../_images/Pagelogo.png) no-repeat;
+	z-index: 5;
+	margin: auto;
+}
+.pageHeader h1 a {
+	display: block;
+	width: 160px;
+	height: 150px;
+	
+}
+
+/*Nav styles*/
+.pageHeader nav {
+	background: rgba(35, 31, 32, .8);
+	height: 45px;
+	width: 800px;
+	position: absolute;
+	top: 0px;
+	left: 160px;
+}
+.pageHeader ul {
+	list-style: none;
+	margin-left: auto;
+}
+.pageHeader li {
+	float: left;
+	margin-right: 20px;
+}
+.pageHeader a {
+	color: white;
+	text-decoration: none;
+	font-size: .9em;
+	
+	/*text-transform: lowercase;*/
+}
+.pageHeader a:hover {
+	color: rgb(251, 174, 44);
+	background: none;
+}
+/*page-specific header styles*/
+.homeHeader {
+	height: 388px;
+	background: url(../_images/main_back.jpg) no-repeat;
+}
+
+.pageStyleHeader {
+	height: 192px;
+	background: url(../_images/HomeBanner.png) no-repeat;
+}
+
+
+/*main article styles*/
+article h1 {
+	font-family: Bitter, Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 2.8em;
+	color: rgb(168, 88, 00);
+	margin-bottom: .5em;
+}
+article h2 {
+	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	color: rgb(65, 64, 66);
+	margin-bottom: .5em;
+	clear: both;
+}
+article h3 {
+	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	font-size: 1.2em;
+	color: rgb(251, 174, 44);
+	font-weight: bold;
+	margin-bottom: 0;
+}
+article a {
+	color: rgb(2, 99, 174);
+}
+article a:hover {
+	color: rgb(251, 174, 44);
+}
+article .more {
+	color: rgb(2, 99, 174);
+	text-align: right;
+	font-weight: bold;
+}
+article a.more:hover {
+	color: rgb(251, 174, 44);
+	background: none;
+}
+#mapCanvas {
+	border: 2px solid rgb(65,61,62);
+	margin-bottom: 2em;
+}
+.address {
+	/* [disabled]float: right; */
+}
+ul.links {
+	list-style: none;
+	margin: 0;
+	padding 0;
+}
+ul.links li {
+	margin-bottom: 1em;
+}
+
+
+
+/*footer styles	*/
+footer#pageFooter {
+	background: rgb(249, 228, 130);
+	color: rgb(65, 64, 66);
+	padding: 32px 0 16px;
+}
+footer h3 {
+	font-family: Bitter, Georgia, Times, "Times New Roman", serif;
+	text-transform: uppercase;
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+footer p {
+	font-size: .7em;
+	text-align: center;
+	clear: both;
+}
+footer p a{
+	color: rgb(65, 64, 66);
+	text-decoration: underline;
+}
+
+#mainContent .post {
+	padding-bottom: 30px;
+}
+.alignleft {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;	
+}
+.alignright {
+	float: right;
+	padding-left: 15px;
+	padding-bottom: 5px;	
+}
+#pageStyle #contentWrapper {
+	color: purple;
+}
+#pageStyle .widget {
+	padding-bottom: 80px;
+}
+#pageSt
+	width: 960px;
+	overflow: hidden;
+}
+#pageStyle aside ul {
+	margin: 1 1.2 1;
+	padding-left: 0.6;
+}
+#pageStyle aside ul li {
+	list-style: square;
+	margin-bottom: 0px;
+	color: #fff;
+}
+#pageStyle aside ul li:hover, #pageStyle aside ul li.highlighted {
+	color: purple;
+}
+#pageStyle .widget {
+	padding-bottom: 80px;
+}
+#pageStyle aside a {
+	display: block;
+}
+#pageStyle aside a:link, #pageStyle aside a:visited {
+	background: #A858A3;
+	color: #FFF;
+}
+#pageStyle aside a:hover, #pageStyle aside a:active {
+	background: url(../_images/diag_pattern.png);
+	color: #FBAE2C;
+}

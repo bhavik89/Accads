@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Textsearch Feature</title>
+    <style type="text/css">
+        
+        body
+        {
+         width:80%;
+         margin: auto;
+         -moz-box-shadow: 0 0 5px 5px #888;
+         -webkit-box-shadow: 0 0 5px 5px#888;
+          box-shadow: 0 0 5px 5px #888;   
+          padding-left: 3%; 
+          padding-right: 3%;           
+          padding-bottom:;
+         }
+        
+        .style1
+        {
+            text-align: center;
+            font-size: xx-large;
+            padding-top:2%;
+        }
+        .style2
+        {
+            text-align: justify;
+            font-size: 14pt;
+        }
+        
+        img
+        {
+           width: 70%;
+           height:auto;
+           margin:auto;
+           }
+    </style>
+</head>
+<body>
+<h3 class="style1"><em>The Textsearch feature</em></h3><hr />
+<p class="style2">When the page is loaded for the first time, the text search feature is initialted. The project uses place search library of Google maps API to search for various places requested by the user.</p>
+    <p class="style2">The Google Places, Text Search Service returns information about a set of Places 
+        based on any text search, for example </p>
+    <ul>
+        <li>
+            <p class="style2">
+                &quot;Restaurants nearby&quot; or 
+            </p>
+        </li>
+        <li>
+            <p class="style2">
+                &quot;Museums in 
+        boston&quot; or 
+            </p>
+        </li>
+        <li>
+            <p class="style2">
+                simply any name of place like &quot;Starbucks&quot;. 
+            </p>
+        </li>
+    </ul>
+    <p> <img src="../_images/textsearch.PNG" /></p>
+    <p class="style2">
+        &nbsp;The service responds with 
+        a list of Places matching the text string and any location bias that has been 
+        set. The search response returns the list of first 20 places matching the search 
+        string. </p>
+    <p class="style2">
+        To list 
+        obtain more places, user needs to click the button saying &quot;More similar places&quot; at 
+        the bottom of the list. On clicking, the next list of 20 places is displayed on 
+        the side panel replacing the initial results. The user can view upto 60 places.</p>
+    <p class="style2">Alternatively, the user can select the type of place from the top 
+        dropdown menu. The top menu lists out various options (types of places) for the 
+        user to select.</p>
+    <p class="style2"><em>How the results are obtained:</em></p>
+    <p class="style2">When the user inputs any text in the search box, a request with the query string 
+        and the user&#39;s current location is sent to the textsearch service of Google 
+        Places library and the results are obtained in the JSON format.</p>
+    <p class="style2">The JSON result is then parsed and the useful information about the place like 
+        name, address, Google users ratings etc is displayed on the side panel.</p>
+    <p class="style2">The Image shows the result of the textsearch utility.</p>
+   
+   <p><img src="../_images/textsearch2.PNG" /></p>
+    <p class="style2">Technologies used for obtaining the text search result:</p>
+    <ul>
+        <li class="style2">CSS3</li>
+        <li class="style2">&nbsp;javascript for taking user&#39;s input and requesting the data</li>
+        <li class="style2">JSON parsing for extracting the useful results</li>
+    </ul>
+    <p>
+        &nbsp;</p>
+</body>
+</html>

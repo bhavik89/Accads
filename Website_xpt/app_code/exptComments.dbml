@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataSource" EntityNamespace="edu.neu.ccis.bhavik.exptComments" ContextNamespace="edu.neu.ccis.bhavik.exptComments" Class="exptCommentsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=bhavik;Persist Security Info=True;User ID=bhavik" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="bhavikCS" Provider="System.Data.SqlClient" />
+  <Table Name="bhavik.exptComments" Member="exptComments">
+    <Type Name="exptComment">
+      <Column Name="comments" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="userId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
