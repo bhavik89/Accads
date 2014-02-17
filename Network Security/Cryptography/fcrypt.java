@@ -256,9 +256,12 @@ public class fcrypt{
 		//Sign the contents with obtained private key
 		sign.initSign(senderPrivateKey);
 		
+		//Get the file contents and get array of hashcode of the data in file
 		FileInputStream fin = new FileInputStream(inputFile);
-		byte[] databytes = new byte[fin.available()];
-				
+		int dataHash = (new byte[fin.available()]).hashCode();
+		byte[] databytes = BigInteger.valueOf(dataHash).toByteArray();
+		
+		//Generate the signature of data bytes
 		for(int len = 0; len <= databytes.length; len++)
 		{
 			fin.read(databytes);
@@ -288,12 +291,15 @@ public class fcrypt{
 		//Verify the signature
 		sign.initVerify(senderPubKey);
 		
+		//Get the file as input stream
 		FileInputStream fin = new FileInputStream(decryptedFile);
 		
-		//BufferedInputStream bufin = new BufferedInputStream(fin);
-		//byte[] databytes = new byte[fin.available()];
-		byte[] databytes = getFileDataBytes(decryptedFile);
-		//System.out.println(databytes.toString());
+		//Get the Hashcode of the data bytes to verify signature
+		int dataHash = (getFileDataBytes(decryptedFile)).hashCode();
+		
+		//Convert the Integer Hashcode to byte array
+		byte[] databytes = BigInteger.valueOf(dataHash).toByteArray();
+		
 		int len;
 		for(len = 0; len <= databytes.length; len++)
 		{
