@@ -3,7 +3,7 @@ Instant Messenger
 
 How to run Client and Server in Terminal:
 ========================================
-Go to Gandhi_Gokani_Final_Project/
+Go to Secured_Instant_Messenger/
 
 Compile into bin folder:
 javac -d bin src/generic/*.java src/server/*.java src/client/*.java
@@ -12,7 +12,7 @@ Run:
 java -cp bin client.Client
 java -cp bin server.Server
 
-Note: Make sure your current directory is Gandhi_Gokani_Final_Project
+Note: Make sure your current directory is Secured_Instant_Messenger
 
 Optional Command line arguments -:
 ===================================
@@ -25,7 +25,7 @@ java -cp bin client.Client clientPort serverIP serverPort
 
 Config File -:
 ===============
-All the config files exist in Gandhi_Gokani_Final_Project/ and use config file to specify server IP, server port and client Port if you are not using the command line options.
+All the config files exist in Secured_Instant_Messenger/ and use config file to specify server IP, server port and client Port if you are not using the command line options.
 1) Specify the server port in server.xml file
 2) Specify the client port and server Ip in client.xml
 3) Configuration files locates server public and private key.
