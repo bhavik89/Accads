@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Client>
+	<ClientInfo>
+		<ServerDefaultPort>9980</ServerDefaultPort>
+		<ServerDefaultIP>127.0.0.1</ServerDefaultIP>
+		<ClientDefaultPort>9990</ClientDefaultPort>
+		<ClientDefaultIP>127.0.0.1</ClientDefaultIP>
+		<ServerPublicKeyFile>serverPublicKey.key</ServerPublicKeyFile>
+	</ClientInfo>	
+</Client>
