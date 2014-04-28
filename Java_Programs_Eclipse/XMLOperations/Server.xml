@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Server>
+	<ServerInfo>
+		<ServerDefaultPort>9980</ServerDefaultPort>
+		<ServerDefaultIP>127.0.0.1</ServerDefaultIP>
+		<ServerPrivateKeyFile>serverPrivateKey.key</ServerPrivateKeyFile>
+		<ServerPublicKeyFile>serverPublicKey.key</ServerPublicKeyFile>
+	</ServerInfo>
+	<UserInfo>
+		<User>
+			<UserName>Admin</UserName>
+			<UserPasswordHash>asdjklasdj</UserPasswordHash>
+		</User>
+		<User>
+			<UserName>Bhavik</UserName>
+			<UserPasswordHash>asdjklasdjaslkdjsa</UserPasswordHash>
+		</User>
+		<User>
+			<UserName>Mirav</UserName>
+			<UserPasswordHash>asdjklasdjaslkdjsa</UserPasswordHash>
+		</User>
+		<User>
+			<UserName>Noubir</UserName>
+			<UserPasswordHash>asdjklasdjaslkdjsa</UserPasswordHash>
+		</User>
+	</UserInfo>
+</Server>
