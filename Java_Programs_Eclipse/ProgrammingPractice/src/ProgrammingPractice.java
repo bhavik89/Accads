@@ -140,7 +140,7 @@ public class ProgrammingPractice {
 				isSub = false;	
 				 str2_pointer = 0;
 			}
-		}
+		} 
 		
 		return isSub;
 	}
