@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -58,7 +59,16 @@ public class ProgrammingPractice {
 		intArr.add(4);
 		intArr.add(9);
 		intArr.add(8);
-		System.out.println(findWhetherTwoInArraySumToValue(intArr, 10));
+		//System.out.println(findWhetherTwoInArraySumToValue(intArr, 10));
+		//rightRotate(sortedArrays);
+		int[] tempArr = {1, 2, 3, -4, -1, 4};
+		alternatingRearrange(tempArr);
+		
+		//rearrange(tempArr, 0, false)
+		
+//		for (Integer i: rearrange(tempArr, 0, false))
+//			System.out.println(i);
+		
 	}
 	
 	
@@ -546,6 +556,64 @@ public class ProgrammingPractice {
 		          }            
 		    
 		    return false;
+		}
+		
+		
+		static void alternatingRearrange (int[] arr){
+			//int curr, nxtValid;
+						
+			for (int i = 0; i < arr.length; i++){
+				if((i%2 == 0 && arr[i] < 0) || (i%2 != 0 && arr[i] > 0))
+					continue;
+					
+				else if (i%2 == 0 && arr[i] > 0){					
+					arr = rearrange(arr, i, false);
+				}
+				
+				else if (i%2 != 0 && arr[i] < 0){					
+					arr = rearrange(arr, i, true);
+				}
+			}
+			
+			for(Integer i : arr){
+				System.out.println(i);
+			}
+		}
+		
+		static int[] rearrange(int[] arr, int curr, boolean sign) {
+			//int nxtValid;			
+		
+			for(int i = curr+1; i < arr.length; i++){
+				if(sign && (arr[i] >= 0)){
+					arr =  rightRotate(arr, curr, i);
+					break;
+				}
+				else if (!sign && (arr[i] < 0)){
+					arr = rightRotate(arr, curr, i);
+					break;
+				}
+			}
+			
+			return arr;
+			
+		}
+
+
+
+
+		static int[] rightRotate(int[] arr, int start, int end){
+			int tmp = arr[end];
+			for (int i = end ; i > start ; i--){
+				arr[i] = arr[i-1];
+			}
+			arr[start] = tmp;
+			
+//			for (Integer x: arr){
+//				System.out.println(x);
+//			}
+			
+			return arr;
+				
 		}
 
 

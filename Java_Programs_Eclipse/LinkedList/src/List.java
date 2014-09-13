@@ -181,5 +181,27 @@ public class List {
 		}
 		
 	}
+	
+	public void isPalindromeLL(List ll){
+		ListElement slowptr = ll.getHead();
+		ListElement fastptr = ll.getHead();
+		
+		while (fastptr.next != null){
+			
+			if (fastptr.next.next != null){
+				fastptr = fastptr.next.next;
+				slowptr = slowptr.next;
+			}else{
+				fastptr = fastptr.next;
+			}			
+		}
+		
+		List tmpList = ll;
+		ll.reverseList(slowptr.next);
+		slowptr.next = ll.getHead();
+		
+	}
+	
+	 
     
 }

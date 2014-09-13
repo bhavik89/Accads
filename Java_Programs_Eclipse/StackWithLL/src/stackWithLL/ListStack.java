@@ -21,20 +21,30 @@ public class ListStack {
 	public void push(ListNode n){
 		if(isEmpty())
 			top = new ListNode (n, top);
-			
+		else{
+			//ListNode temp = top;
+			ListNode newNode = new ListNode (n, top);
+			top = newNode;
+			//top.next = temp;
+		}
 	}
 	
-	public void pop(){
-		if(isEmpty())
+	public Object pop(){
+		if(isEmpty()){
 			System.out.println("Stack is empty!");
-		
-		top = top.next;
+			return null;
 		}
+		
+		ListNode temp = top;
+		top = top.next;
+		return temp.element;
+	}
 	
 	public Object giveTop(){
-		if(isEmpty())
+		if(isEmpty()){
 			System.out.println("Stack is empty!");
-		
+			return null;
+		}
 		return top.element;
 	}
 }
