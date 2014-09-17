@@ -1,5 +1,9 @@
 package codingInterview;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+
 public class SmallProgs {
 
 	static void towerOfHanoi(int n, char src, char aux, char dest){
@@ -67,9 +71,8 @@ public class SmallProgs {
 		
 		if(num == 0 || num == 1)
 			return 1;
-		else{
+		else
 			return (num * recursiveFact(num - 1));
-		}
 		
 	}
 	
@@ -84,6 +87,31 @@ public class SmallProgs {
 			}
 		}
 		System.out.println(fact);
+	}
+	
+	static void decToBin(int num){
+		ArrayList<Integer> binArray = new ArrayList<>();
+		
+		while (num >= 1){
+			binArray.add(num%2);
+			num /= 2;
+		}
+		Collections.reverse(binArray);
+		System.out.println(binArray);
+	}
+	
+	static void binToDec(int[] num){
+		int decNum = 0;
+		
+		int index = 0;
+		for(Integer bit: num){
+			if(bit == 1)
+				decNum += Math.pow(2, index);
+			
+			index++;
+		}
+		
+		System.out.println(decNum);
 	}
 	
 	

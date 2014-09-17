@@ -15,12 +15,12 @@ public class Heap {
 		
 		Heap h = new Heap();
 		
-		for(int i = 0; i <=10;i++){
+		for(int i = 0; i <=10 ;i++){
 			int added = (int) (Math.random() * 100);
 			h.heap.add(added);
 			h.heap = siftUp(h.heap);
-			System.out.println("Added:" + added);
-			System.out.println(h.heap);
+			//System.out.println("Added:" + added);
+			//System.out.println(h.heap);
 		}
 		
 //		h.heap.add(10);
@@ -36,6 +36,8 @@ public class Heap {
 		System.out.println("\nRemoved Element: " + h.heap.get(0));
 		h.heap = siftDown(h.heap);
 		System.out.println("\nNew heap: " + h.heap);
+		
+		heapSort(h.heap);
 				
 	}	
 
@@ -70,10 +72,10 @@ public class Heap {
 				break;
 			}
 			if(heap.get(largerChild) > heap.get(start)){
-				System.out.println("To Shif Down heap: " + heap );
+				//System.out.println("To Shif Down heap: " + heap );
 				heap = swap(heap, start, largerChild);
 				start = largerChild;
-				System.out.println("Shifted Down heap: " + heap );
+				//System.out.println("Shifted Down heap: " + heap );
 			}
 			else 
 				break;
@@ -111,47 +113,57 @@ public class Heap {
 		
 	}
 	
-	//A: (4, 2, 8, 5, 9, 1) V: 14
-
-	//A: (5,3) V: 10
-
-	//(5, 5) V:10
-
-
-	boolean findWhetherTwoInArraySumToValue(ArrayList<Integer> array, int value){
-
-	    if(array==null || array.size() == 0)
-	        return false;
-	    
-	    HashMap<Integer, Integer> arrayMap = new HashMap<Integer, Integer>();
-	    
-	    //Build Hashmap form the given array, <arrayInt, IntCount>
-	    //Complexity: O(n)
-	    for(Integer i: array){
-	        if(arrayMap.get(i) != null){
-	            arrayMap.put(i, arrayMap.get(i)+1);        
-	        }else{
-	            arrayMap.put(i,1);
-	        }
-	    }
-	    
-	    //Iterate over the array to check if (value-arrayElement) exists in map
-	    //Complexity O(n)
-	    for(Integer i: array){
-	        if(array.get(value-i) == 1)
-	            return true;
-	        
-	        else if (array.get(value-i)>1){
-	            int add = 0;
-	            int count = array.get(value-i);
-	            for(int j = 0; j<=count; j++){
-	                add += j;
-	                if(add == value)
-	                    return true;
-	            }
-	            }            
-	    }
-	    return false;
+	public static void heapSort(List<Integer> heap){
+		
+		int size = heap.size() -1;
+		long startTime = System.currentTimeMillis();
+		//System.out.println(startTime);
+		while(size > 0){
+			swap(heap, 0, size);
+			heap = siftDownToGivenEnd(heap, size-1);	
+			size -=1 ;
+		}
+		
+		if(heap.get(0) > heap.get(1))
+			swap(heap, 0, 1);
+		
+		long endTime = System.currentTimeMillis();
+		//System.out.println(endTime);
+		long timeTaken  = (endTime - startTime);
+		
+		System.out.println("Sorted Heap: " + heap + " in " + timeTaken + "ms");
+		
 	}
+	
+	private static List<Integer> siftDownToGivenEnd(List<Integer> heap, int end) {
+		int start = 0;
+		//int end = heap.size() - 1;
+		//heap = swap(heap, start, end);
+		//heap.remove(end);
+		//end -= 1;
+		while(start < end){
+			int largerChild;
+			try{
+				largerChild = getLargerChildIndex(heap, start);
+				if(largerChild > end)
+					break;
+			}catch(Exception e){
+				
+				break;
+			}
+			if(heap.get(largerChild) > heap.get(start)){
+				//System.out.println("To Shif Down heap: " + heap );
+				heap = swap(heap, start, largerChild);
+				start = largerChild;
+				//System.out.println("Shifted Down heap: " + heap );
+			}
+			else 
+				break;
+		}
+		
+		return heap;
+		
+	}
+	
 
 }

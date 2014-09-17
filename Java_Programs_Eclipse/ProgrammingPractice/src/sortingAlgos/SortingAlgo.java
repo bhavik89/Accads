@@ -16,6 +16,17 @@ public class SortingAlgo {
 		bubbleSort(inputArr);
 		insertionSort(inputArr);
 		
+		int[] intArr = new int[10];
+		for(int i = 0; i < 10;i++){
+			intArr[i] = (int) (Math.random() * 100);
+			System.out.println(intArr[i]);
+		}
+		
+		
+		quickSort(intArr, 0, intArr.length-1);
+		//for(Integer i:intArr)
+		//	System.out.println(i);
+		//sortSortedArrays1();
 }	
 	//Bubble Sort
 	private static void bubbleSort(ArrayList<Integer> inputArr) {
@@ -80,6 +91,31 @@ public class SortingAlgo {
 		System.out.println("Sorted Array:");
 		for(Integer a: B)
 			System.out.print(a+", ");
+	}
+	
+	public static void quickSort(int[] arr, int low, int up){
+		
+		if(arr.length<2)
+			return;
+		
+		int pivot = arr[(arr.length-1)/2];
+		
+		//int low = 0, up = len -1;
+		
+		while(low<up){
+			while(arr[low] <= pivot)
+				low++;
+			
+			while(arr[up] > pivot)
+				up--;
+			
+			int temp = arr[low];
+			arr[low] = arr[up];
+			arr[up] = temp;			
+		}
+		
+		quickSort(arr, low, pivot-1);
+		quickSort(arr, pivot+1, up);
 	}
 	
 	

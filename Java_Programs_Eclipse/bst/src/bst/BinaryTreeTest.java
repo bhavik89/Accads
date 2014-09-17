@@ -45,6 +45,13 @@ public class BinaryTreeTest {
 	    printBreadthFirstSearch(root);
 	    System.out.println(isBST(root));
 	    
+	    System.out.println(maxHeight(root));
+	    
+	    int[] arr  = {0,1,2,3,4,5,6,7,8,9,10};
+	    Node n = createMinimalBST(arr, 0, arr.length-1);
+	    System.out.println("Traversing new tree in order");
+	    printInOrder(n);
+	    
 	  }
 	 
 	  public void insert(Node node, int value) {
@@ -161,6 +168,31 @@ public class BinaryTreeTest {
 	      }
 	   
 	      return true;
+	  }
+	  
+	  int maxHeight(Node root){
+		  
+		  if(root == null) 
+			  return 0;
+		  
+		  int left_height = maxHeight(root.left);
+		  int right_height = maxHeight(root.right);
+		  
+		  return (left_height > right_height) ? left_height +1 : right_height +1;
+		  
+	  }
+	  
+	  Node createMinimalBST(int arr[], int start, int end){
+		  if(end < start)
+			  return null;
+		  
+		  int mid = (start + end)/2;
+		  
+		  Node n = new Node(arr[mid]);
+		  n.left = createMinimalBST(arr, start, mid-1);
+		  n.right = createMinimalBST(arr, mid+1, end);
+		  
+		  return n;
 	  }
 	 
 	}

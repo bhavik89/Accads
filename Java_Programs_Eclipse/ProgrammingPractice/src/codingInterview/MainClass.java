@@ -18,6 +18,12 @@ public class MainClass {
 		//SmallProgs.printIterFibo(10);
 		
 		//System.out.println(SmallProgs.recursiveFact(3));
-		SmallProgs.iterFact(1);
+		//SmallProgs.iterFact(1);
+//		int[] binArr = {1,0,0,1};
+//		SmallProgs.decToBin(15);
+//		SmallProgs.binToDec(binArr);
+		
+		//System.out.println(NumbersOperations.getIntegerLength(1238));
+		NumbersOperations.interLeveNumbers(123499, 56780);
 	}
 }
