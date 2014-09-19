@@ -114,6 +114,34 @@ public class SmallProgs {
 		System.out.println(decNum);
 	}
 	
+	static void reverseSentence(String sent){
+		
+		//Remove leading or trailing Spaces
+		sent = sent.trim();		
+		
+		//Convert Sentence to String array 
+		String[] words = sent.split("\\s+");
+		
+		//Remove all punctuations
+		for (int i = 0; i < words.length; i++) {		   
+		    words[i] = words[i].replaceAll("[^\\w]", "");
+		}
+		
+		//New result String
+		String result = new String();
+		
+		//Iterate from end of array to construct result string
+		for (int j = (words.length-1); j >= 0; j--){
+			if(j>0)
+				result += (words[j] + " ");
+			else
+				result += (words[j]);
+		}	
+		
+		System.out.println(result);
+
+	}
+	
 	
 	
 	

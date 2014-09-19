@@ -29,7 +29,7 @@ public class NumbersOperations {
 			return num1;
 		}else{
 			int j = 0;
-			int l1 = len1, l2 = len2;
+			//int l1 = len1, l2 = len2;
 			for(int i = 1; i <= Math.max(len1, len2); i++){
 				
 				long tmp1 = (long) (c1/(Math.pow(10, (len1 -i))));
@@ -49,8 +49,8 @@ public class NumbersOperations {
 				System.out.println(result);
 				System.out.println(j);
 				
-				l1--;
-				l2--;
+			//	l1--;
+			//	l2--;
 				
 			}
 			return result;

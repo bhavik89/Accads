@@ -24,6 +24,9 @@ public class MainClass {
 //		SmallProgs.binToDec(binArr);
 		
 		//System.out.println(NumbersOperations.getIntegerLength(1238));
-		NumbersOperations.interLeveNumbers(123499, 56780);
+		//NumbersOperations.interLeveNumbers(123499, 56780);
+		
+		//SmallProgs.reverseSentence("the sky is blue");
+		Hill.returnHill();
 	}
 }

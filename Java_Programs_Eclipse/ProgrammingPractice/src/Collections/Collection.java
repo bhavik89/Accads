@@ -11,13 +11,13 @@ public class Collection {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		arrayList();
-		linkedList();
-		hashMap();
-		linkedHashMap();
+//		arrayList();
+//		linkedList();
+//		hashMap();
+//		linkedHashMap();
 		treeMap();
-		sets();
-		sortLists();
+//		sets();
+//		sortLists();
 	}
 	
 	 public static void arrayList(){

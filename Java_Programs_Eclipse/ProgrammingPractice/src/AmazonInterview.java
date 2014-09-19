@@ -62,13 +62,13 @@ public class AmazonInterview {
 		//System.out.println(findWhetherTwoInArraySumToValue(intArr, 10));
 		//rightRotate(sortedArrays);
 		int[] tempArr = {1, 2, 3, -4, -1, 4};
-		alternatingRearrange(tempArr);
+		//alternatingRearrange(tempArr);
 		
 		//rearrange(tempArr, 0, false)
 		
 //		for (Integer i: rearrange(tempArr, 0, false))
 //			System.out.println(i);
-		
+		System.out.println(isAnagram("aab", "aba"));
 	}
 	
 	
@@ -466,31 +466,36 @@ public class AmazonInterview {
 
 		if(s.length() != t.length()) return false;   
 		   
-		HashMap<Integer, Integer> anaHash = new HashMap<Integer, Integer>();
+		HashMap<Character, Integer> anaHash = new HashMap<Character, Integer>();
 		int chars_s = 0;
 		int chars_t = 0;
 		char[] s_array = s.toCharArray();
 		char[] t_array = t.toCharArray();
-
+		
+		int val;
 		for (int i=0; i< s.length(); i++){
-		    int val =0;
+		    
+		    
 		    if(anaHash.get(s_array[i]) == null)
-		     val = 0;
+		    	val = 0;
 		    else
 		        val = anaHash.get(s_array[i]);
 		   
-		    anaHash.put((int) s_array[i], (val +1));//(anaHash.get(s_array[i]) + 1));
+		    anaHash.put(s_array[i], (val +1));//(anaHash.get(s_array[i]) + 1));
 		    chars_s ++;
 		}
 
 		for (int j=0; j<t.length(); j++){
 		   
-		    if(anaHash.get((int)t_array[j]) == null){
-		    return false;
+		    if(anaHash.get(t_array[j]) == null){
+		    	return false;
+		    }
+		    else if((anaHash.get(t_array[j])  - 1 )< 0){
+		    	return false;
 		    }
 		    else
 		    {
-		        anaHash.put((int) t_array[j], (anaHash.get((int)t_array[j])-1) );
+		        anaHash.put(t_array[j], (anaHash.get(t_array[j]))-1);
 		        chars_t++;
 		    }
 		   
