@@ -1,6 +1,7 @@
 package codingInterview;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
@@ -27,6 +28,15 @@ public class SmallProgs {
 			System.out.println(recursiveFibo(i));
 		}
 	}
+	
+	
+	static void printFiboRecursiveWords(int num){
+		for (int i = 0; i <= num; i++){
+			System.out.println(recursiveFibo(i));
+		}
+	}
+	
+	
 	
 	//Funtion to return Nth fibo number (recursive function)
 	static int recursiveFibo(int n){
@@ -65,6 +75,29 @@ public class SmallProgs {
 			}
 			
 		}
+	}
+	
+	
+static String printIterFiboString(int n){
+		
+		String first = "0";
+		String second = "01";
+		
+		StringBuilder result = new StringBuilder();
+		
+		
+		if(n == 1){
+			result.append(first);
+			return result.toString();
+		}
+		
+		for (int i = n; i>1; i--){						
+				String tmp = second;
+				second += first;
+				first = tmp;			
+		}
+		
+		return result.append(first).toString();
 	}
 	
 	static long recursiveFact(long num){
@@ -140,6 +173,46 @@ public class SmallProgs {
 		
 		System.out.println(result);
 
+	}
+	
+	static int printSquaresNum(int A, int B){
+		
+		if(B <= 0)
+			return 0;
+		
+		if(A < 0)
+			A = 0;
+		
+		int sqrtA = (int) Math.sqrt(A);
+		int sqrtB = (int) Math.sqrt(B);
+		
+		if(sqrtA * sqrtA != A)
+			sqrtA++;
+		
+		return (sqrtB - sqrtA + 1);		
+	}
+	
+	static int maxGap(int[] A){
+		
+		Arrays.sort(A);
+		
+		int maxGap = Integer.MIN_VALUE;
+		
+		for(int i = 1; i < A.length ; i++){
+			if(maxGap < (A[i] - A[i-1]))
+				maxGap = (A[i] - A[i-1]);				
+		}
+		
+		return maxGap/2;
+	}
+	
+	static void compareStrings(){
+		String str1 = "Hell";
+		String str2 = "Hella";
+		
+		System.out.println(str1.compareTo(str2));
+		
+		
 	}
 	
 	

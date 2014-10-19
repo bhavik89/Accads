@@ -14,7 +14,7 @@ public class Hill {
 //		System.out.println(Collections.min(b));
 //        System.out.println(Collections.max(b));
 		
-		int[] array = { 3,3,2};
+		int[] array = {4,5,2,3,8};
 		int K = 0, last = array[0];
 		for (int i = 1; i < array.length; ++i) {
 		    if (last >= array[i] + K) {

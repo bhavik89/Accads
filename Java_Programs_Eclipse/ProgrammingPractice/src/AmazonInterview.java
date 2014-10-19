@@ -347,6 +347,8 @@ public class AmazonInterview {
 		remainder = storeDividend - divisor*quotient;
 		System.out.println("Quotient: " + quotient);
 		System.out.println("Remainder: " + remainder);
+		
+	
 	}
 	
 	public static void numToString(int num){

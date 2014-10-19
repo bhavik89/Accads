@@ -8,12 +8,12 @@ public class SortingAlgo {
 	
 		ArrayList<Integer> inputArr = new ArrayList<Integer>();
 		
-		for(int i = 0; i <=10;i++){
+		for(int i = 0; i <=3;i++){
 			inputArr.add((int) (Math.random() * 100));
 		}
 		
 		System.out.println("Input Array: " + inputArr);
-		bubbleSort(inputArr);
+		//bubbleSort(inputArr);
 		insertionSort(inputArr);
 		
 		int[] intArr = new int[10];
@@ -23,7 +23,7 @@ public class SortingAlgo {
 		}
 		
 		
-		quickSort(intArr, 0, intArr.length-1);
+		//quickSort(intArr, 0, intArr.length-1);
 		//for(Integer i:intArr)
 		//	System.out.println(i);
 		//sortSortedArrays1();
@@ -49,12 +49,12 @@ public class SortingAlgo {
 	private static void insertionSort(ArrayList<Integer> inputArr) {
 
 		int temp;
-		for (int i=0;i<=inputArr.size()-1; i++){
-			int j = 1;
+		for (int i=0;i<inputArr.size(); i++){
+			int j = i;
 			while(j>0 && (inputArr.get(j) < inputArr.get(j-1))){
 				temp = inputArr.get(j);
 				inputArr.set(j, inputArr.get(j-1));
-				inputArr.set(j-11, temp);
+				inputArr.set(j-1, temp);
 				j -= 1;
 			}
 					
