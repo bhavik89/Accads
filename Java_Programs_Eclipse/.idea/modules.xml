@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android/.metadata/.plugins/org.eclipse.jdt.core/.org.eclipse.jdt.core.external.folders/.org.eclipse.jdt.core.external.folders.iml" filepath="$PROJECT_DIR$/Android/.metadata/.plugins/org.eclipse.jdt.core/.org.eclipse.jdt.core.external.folders/.org.eclipse.jdt.core.external.folders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChatApplication/ChatApplication.iml" filepath="$PROJECT_DIR$/ChatApplication/ChatApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crypto/Crypto.iml" filepath="$PROJECT_DIR$/Crypto/Crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FiveCardDrawSimulation/FiveCardDrawSimulation.iml" filepath="$PROJECT_DIR$/FiveCardDrawSimulation/FiveCardDrawSimulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashTable/HashTable.iml" filepath="$PROJECT_DIR$/HashTable/HashTable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Heaps/Heaps.iml" filepath="$PROJECT_DIR$/Heaps/Heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedHash/LinkedHash.iml" filepath="$PROJECT_DIR$/LinkedHash/LinkedHash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OvitasChallenge/OvitasChallenge.iml" filepath="$PROJECT_DIR$/OvitasChallenge/OvitasChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PriorityQueues/PriorityQueues.iml" filepath="$PROJECT_DIR$/PriorityQueues/PriorityQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgrammingPractice/ProgrammingPractice.iml" filepath="$PROJECT_DIR$/ProgrammingPractice/ProgrammingPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Python3.3/Python3.3.iml" filepath="$PROJECT_DIR$/Python3.3/Python3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queues/Queues.iml" filepath="$PROJECT_DIR$/Queues/Queues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueuesWithList/QueuesWithList.iml" filepath="$PROJECT_DIR$/QueuesWithList/QueuesWithList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecureChattApp/SecureChattApp.iml" filepath="$PROJECT_DIR$/SecureChattApp/SecureChattApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecureIM/SecureIM.iml" filepath="$PROJECT_DIR$/SecureIM/SecureIM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackWithLL/StackWithLL.iml" filepath="$PROJECT_DIR$/StackWithLL/StackWithLL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web-AppLogin/Web-AppLogin.iml" filepath="$PROJECT_DIR$/Web-AppLogin/Web-AppLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web-app1/Web-app1.iml" filepath="$PROJECT_DIR$/Web-app1/Web-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLOperations/XMLOperations.iml" filepath="$PROJECT_DIR$/XMLOperations/XMLOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayList/arrayList.iml" filepath="$PROJECT_DIR$/arrayList/arrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayMax/arrayMax.iml" filepath="$PROJECT_DIR$/arrayMax/arrayMax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bst/bst.iml" filepath="$PROJECT_DIR$/bst/bst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carEx/carEx.iml" filepath="$PROJECT_DIR$/carEx/carEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nCrCombinations/nCrCombinations.iml" filepath="$PROJECT_DIR$/nCrCombinations/nCrCombinations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prime/prime.iml" filepath="$PROJECT_DIR$/prime/prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primeWithArrays/primeWithArrays.iml" filepath="$PROJECT_DIR$/primeWithArrays/primeWithArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-app/test-app.iml" filepath="$PROJECT_DIR$/test-app/test-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-app/web-app.iml" filepath="$PROJECT_DIR$/web-app/web-app.iml" />
+    </modules>
+  </component>
+</project>
