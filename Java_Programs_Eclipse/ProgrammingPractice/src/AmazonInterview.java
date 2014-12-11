@@ -28,7 +28,7 @@ public class AmazonInterview {
 		//System.out.print(res[0] + "," + res[1]);
 		
 //		
-		//System.out.println(ipow(5,3));
+		System.out.println(ipow(2,4));
 		//System.out.println(getNextLarge(2));
 		//System.out.println(getBitCount(16));
 		//System.out.println(isPalindromeNum(9));
@@ -68,7 +68,9 @@ public class AmazonInterview {
 		
 //		for (Integer i: rearrange(tempArr, 0, false))
 //			System.out.println(i);
-		System.out.println(isAnagram("aab", "aba"));
+		//System.out.println(isAnagram("aab", "aba"));
+		
+		System.out.println(isSubString("ABCDH", "A"));
 	}
 	
 	
@@ -131,7 +133,7 @@ public class AmazonInterview {
 
 	
 	
-	private boolean isSubString(String concatString, String s2) {
+	private static boolean isSubString(String concatString, String s2) {
 		
 		boolean isSub = false;
 		
@@ -143,7 +145,9 @@ public class AmazonInterview {
 		
 		for(int i = 0; i < len; i ++){
 			if (concatString.charAt(i) == s2.charAt(str2_pointer)){
-				 isSub = true;	
+				 isSub = true;
+				 if(str2_pointer == s2.length() -1)
+					 return isSub;
 				 str2_pointer++;
 			}
 			else{
@@ -180,7 +184,7 @@ public class AmazonInterview {
 	        if ((exp & 1) == 1)
 	            result *= base; 
 	        exp >>= 1;		// divide by 2
-			System.out.println(exp);
+			//System.out.println(exp);
 	        base *= base;
 	    }
 
@@ -190,7 +194,7 @@ public class AmazonInterview {
 	private static int getNextLarge(int n){
 		int mask = 1;
 		
-			while( !((n & mask) == mask) && (((n & (mask<<1)) == 0))){
+			while(!(((n & mask) == mask) && (((n & (mask<<1)) == 0)))){
 				mask <<= 1;
 				System.out.println("Mask: " + mask);
 			}
@@ -456,10 +460,6 @@ public class AmazonInterview {
 		System.out.println();	
 		
 	}
-	
-	
-	
-	
 	
 	/* Checks if the given string is a anagram of another
 	 * Uses hashMap

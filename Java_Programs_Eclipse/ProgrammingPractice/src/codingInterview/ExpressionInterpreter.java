@@ -4,8 +4,8 @@ import java.util.Stack;
 
 public class ExpressionInterpreter {
 	
-	private Stack<Integer> exprSt = new Stack<>();
-	private Stack<Integer> resultsSt = new Stack<>();
+	private Stack<Integer> exprSt = new Stack();
+	private Stack<Integer> resultsSt = new Stack();
 	
 	public int exprInterpret(String expr){
 		int result = 0;			

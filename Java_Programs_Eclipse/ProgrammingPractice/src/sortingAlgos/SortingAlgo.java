@@ -14,12 +14,12 @@ public class SortingAlgo {
 		
 		System.out.println("Input Array: " + inputArr);
 		//bubbleSort(inputArr);
-		insertionSort(inputArr);
+		//insertionSort(inputArr);
 		
 		int[] intArr = new int[10];
 		for(int i = 0; i < 10;i++){
 			intArr[i] = (int) (Math.random() * 100);
-			System.out.println(intArr[i]);
+			//System.out.println(intArr[i]);
 		}
 		
 		
@@ -27,6 +27,7 @@ public class SortingAlgo {
 		//for(Integer i:intArr)
 		//	System.out.println(i);
 		//sortSortedArrays1();
+		selectionSort();
 }	
 	//Bubble Sort
 	private static void bubbleSort(ArrayList<Integer> inputArr) {
@@ -116,6 +117,38 @@ public class SortingAlgo {
 		
 		quickSort(arr, low, pivot-1);
 		quickSort(arr, pivot+1, up);
+	}
+	
+	public static void selectionSort(){
+		System.out.println("Slection sort: \n");
+		int[] intArr = new int[10];
+		for(int i = 0; i < 10;i++){
+			intArr[i] = (int) (Math.random() * 100);
+		}
+		System.out.println("Unsorted Array: ");
+		
+		for(Integer i: intArr)
+			System.out.print(i+", ");
+		
+		for (int i = 0; i < intArr.length ; i++){
+			int smallestIndex = i;
+			
+			for(int j = i+1; j < intArr.length; j++){
+				if(intArr[smallestIndex] > intArr[j])
+					smallestIndex = j;
+			}
+			
+			int swap = intArr[smallestIndex];
+			intArr[smallestIndex] = intArr[i];
+			intArr[i] = swap;
+			
+		}
+		
+		System.out.println("\nSorted Array: ");
+		
+		for(Integer i: intArr)
+			System.out.print(i+", ");
+		
 	}
 	
 	
